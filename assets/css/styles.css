@@ -6,8 +6,12 @@
     --primary-color:#0F1B4C;
 }
 
+html,body{
+    scroll-behavior:smooth;
+}
+
 html{
-    font-size:62.5%;
+    font-size:62.5%;  
 }
 
 body{
