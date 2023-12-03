@@ -17,6 +17,7 @@ html{
 body{
     font-size:1.6rem;
     font-family: "Poppins", sans-serif;
+    user-select: none;
 }
 
 /* ======================== Common ======================== */
@@ -326,7 +327,8 @@ a{
 
 .featured .list{
     margin-top: 70px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     gap:30px;
 }
 
@@ -598,7 +600,7 @@ a{
 }
 
 .footer .row-top {
-    gap:185px;
+    column-gap:185px;
 }
 
 .footer .heading{
